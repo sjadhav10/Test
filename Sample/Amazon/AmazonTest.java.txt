@@ -1,0 +1,24 @@
+package Amazon;
+
+import org.openhq.selenium.WebDriver;
+import io.appium.java_client.AndroidDriver;
+import org.openhq.selenium.remote.DesiredCapabilities;
+
+public class AmazonTest{
+
+//
+Assigning desired capabilities to android driver
+DesiredCapabilities cap = new DesiredCapabilities();
+
+cap.addCapabilities("platform","ANDROID");
+cap.addCapabilities("version","6.0");
+cap.addCapabilities("appActivity","");
+cap.addCapabilities("appPackage","");
+
+
+//Creating android driver
+
+AndroidDriver driver = new AndroidDriver("",cap)
+
+
+}
